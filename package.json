@@ -4,7 +4,9 @@
   "description": "Netlify function using Express and Nunjucks",
   "main": "index.js",
   "scripts": {
-    "start": "netlify dev"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/netlify-lambda serve src",
+    "build": "./node_modules/.bin/netlify-lambda build src"
   },
   "dependencies": {
     "express": "^4.18.2",
