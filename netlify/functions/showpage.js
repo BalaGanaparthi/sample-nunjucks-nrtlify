@@ -1,7 +1,7 @@
 const nunjucks = require("nunjucks");
 const path = require("path");
 
-const viewpath = path.join(__dirname, "./views");
+const viewpath = path.join(__dirname, "../views");
 
 nunjucks.configure(viewpath, {
   autoescape: true,
