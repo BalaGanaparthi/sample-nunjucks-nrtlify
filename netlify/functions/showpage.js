@@ -7,8 +7,8 @@ nunjucks.configure(viewpath, {
   autoescape: true,
   express: app,
 });
-app.set("views", viewpath);
-app.set("view engine", "html");
+// app.set("views", viewpath);
+// app.set("view engine", "html");
 
 exports.handler = async (event, context) => {
   try {
