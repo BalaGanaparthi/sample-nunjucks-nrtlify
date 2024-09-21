@@ -5,7 +5,7 @@ const viewpath = path.join(__dirname, "./views");
 
 nunjucks.configure(viewpath, {
   autoescape: true,
-  express: app,
+  throwOnUndefined: true,
 });
 // app.set("views", viewpath);
 // app.set("view engine", "html");
