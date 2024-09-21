@@ -1,14 +1,15 @@
 {
-  "name": "my-netlify-project",
+  "name": "netlify-express-nunjucks",
   "version": "1.0.0",
-  "description": "A Netlify project using Nunjucks templates",
+  "description": "Netlify function using Express and Nunjucks",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'No build step required'",
     "start": "netlify dev"
   },
   "dependencies": {
-    "nunjucks": "^3.2.3"
+    "express": "^4.18.2",
+    "nunjucks": "^3.2.3",
+    "serverless-http": "^2.7.0"
   },
   "devDependencies": {},
   "author": "Your Name",
