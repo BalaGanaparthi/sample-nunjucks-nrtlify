@@ -1,0 +1,16 @@
+{
+  "name": "my-netlify-project",
+  "version": "1.0.0",
+  "description": "A Netlify project using Nunjucks templates",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "nunjucks": "^3.2.3"
+  },
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}

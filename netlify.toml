@@ -1,0 +1,12 @@
+[build]
+  functions = "netlify/functions"  # Path to your functions directory
+  publish = "public"                # Directory for static files (change if needed)
+
+[dev]
+  functions = "netlify/functions"   # Path to your functions during development
+
+[[redirects]]
+  from = "/showpage"                # Redirect from your custom endpoint
+  to = "/.netlify/functions/showpage" # Point to the function
+  status = 200                       # HTTP status code
+  force = true                       # Force redirect
